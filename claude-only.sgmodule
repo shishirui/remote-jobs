@@ -1,0 +1,9 @@
+#!name=Claude Code Direct Proxy
+#!desc=Proxy only Claude Code without proxy group
+
+[Proxy]
+Claude-HTTP = http, 9.142.13.152, 7308, username=qpgwfhjo, password=zheqy00jvf30
+
+[Rule]
+PROCESS-NAME,claude,Claude-HTTP
+
